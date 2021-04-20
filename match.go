@@ -40,6 +40,19 @@ func Get(buf []byte) (types.Type, error) {
 	return Match(buf)
 }
 
+// FileClass infers the file class and returns it as a string (class description)
+func FileClass(filepath string) (string, error) {
+	if kind, err := MatchFile(filepath); err != nil {
+		return "", err
+	} else {
+		if kind == Unknown {
+			return "other", nil
+		} else {
+			return GetType(kind.Extension).MIME.Type, nil
+		}
+	}
+}
+
 // MatchFile infers a file type for a file
 func MatchFile(filepath string) (types.Type, error) {
 	file, err := os.Open(filepath)
