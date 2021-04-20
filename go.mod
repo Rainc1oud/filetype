@@ -1,4 +1,4 @@
-module github.com/ppenguin/filetype/v1.1.2
+module github.com/ppenguin/filetype/v2
 
 go 1.16
 
