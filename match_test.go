@@ -6,8 +6,8 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/ppenguin/filetype/matchers"
-	"github.com/ppenguin/filetype/types"
+	"github.com/h2non/filetype/matchers"
+	"github.com/h2non/filetype/types"
 )
 
 func TestMatch(t *testing.T) {

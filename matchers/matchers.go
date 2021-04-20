@@ -1,7 +1,7 @@
 package matchers
 
 import (
-	"github.com/ppenguin/filetype/types"
+	"github.com/h2non/filetype/types"
 )
 
 // Internal shortcut to NewType

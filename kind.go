@@ -1,8 +1,8 @@
 package filetype
 
 import (
-	"github.com/ppenguin/filetype/matchers"
-	"github.com/ppenguin/filetype/types"
+	"github.com/h2non/filetype/matchers"
+	"github.com/h2non/filetype/types"
 )
 
 // Image tries to match a file as image type
