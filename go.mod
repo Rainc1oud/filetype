@@ -1,5 +1,3 @@
-module github.com/ppenguin/filetype
+module github.com/Rainc1oud/filetype
 
 go 1.16
-
-require github.com/h2non/filetype v1.1.1
